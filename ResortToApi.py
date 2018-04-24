@@ -81,7 +81,6 @@ print("Шпионских групп ", len(result_groups))
 # result_groups_json = json.dumps(result_groups_json)
 # pprint(result_groups_json)
 
-
 # name = json.loads(user.get_info_group(USER_ID).text)
 #
 # print('here', name)
