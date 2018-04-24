@@ -1,4 +1,6 @@
 from pprint import pprint
+
+import chardet
 import requests
 import json
 import time
@@ -77,6 +79,7 @@ for friend in user_friends['response']['items']:
 
 
 print("Шпионских групп ", len(result_groups))
+
 # result_groups_json = {'gid' : list(result_groups)}
 # result_groups_json = json.dumps(result_groups_json)
 # pprint(result_groups_json)
